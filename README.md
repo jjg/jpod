@@ -39,6 +39,13 @@ The second option is very attractive, in no small part because I've recently sta
 The risk in option two is that it could take a very long time to produce something usable. In the long run it's the better option, and frankly the work is more interesting, but it may not solve the problem this project set-out to address.
 
 
+### The simplest thing that could possibly work
+
+For a number of reasons a small SBC running Linux is an attractive option if for no other reason than it is easy to "simulate" using a full-sized computer.  This can expedite the development process significantly (development can begin before the final hardware configuration exists) and it pushes a lot of the work into the software domain.  On the down-side, the size, complexity and energy-efficiency of hardware like this is much larger than that of a custom or even somewhat off-the-shelf implementation based on purpose-specific chips and microcontrollers.  Given the simplicity of the task (playing music), it's hard to justify the complexity of using a multiuser operating system like Linux.
+
+That said, maybe we should explore this option and see how close it gets to our requirements?
+
+
 
 ## References
 
@@ -49,4 +56,8 @@ The risk in option two is that it could take a very long time to produce somethi
 * http://ee.bradley.edu/projects/proj2010/fpgamp3/FPGAMP3_Project_Report.pdf
 * https://sites.google.com/site/hquadproject/
 * http://www.mp3-tech.org/programmer/docs/linneman_thesis.pdf
-* 
+* https://www.hackster.io/Kampino/play-wav-files-from-an-sd-card-with-the-zybo-ba4469
+* https://www.fpga4fun.com/MusicBox.html
+* https://www.fpga4fun.com/PWM_DAC_3.html
+* https://github.com/YetAnotherElectronicsChannel/FPGA-Class-D-Amplifier
+* https://github.com/open-sdr/openwifi 
